@@ -12,10 +12,19 @@ body {
     border-radius: 3px;
 }
 
-#contacts {
-    cursor: pointer;
+/* #show-contact span {
+    font-weight: 600;
 }
 
+#contacts li {
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.719);
+    padding: 8px;
+    width: 60%;
+    list-style-type: none;
+    margin-bottom: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
 
 .deleteButton {
     background-color: red;
