@@ -1,0 +1,26 @@
+body {
+    /* background: linear-gradient(to right, blue, rgb(179, 241, 179), yellow); */
+    background-image: url(../img/istockphoto-1489466711-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#show-contact {
+    display: none;
+    background-color: rgba(240, 255, 255, 0.336);
+    padding: 30px;
+    border-radius: 3px;
+}
+
+#contacts {
+    cursor: pointer;
+}
+
+
+.deleteButton {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    font-family: cursive;
+    border-style: none;
+}
