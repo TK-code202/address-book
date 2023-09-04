@@ -57,7 +57,7 @@ function displayContactDetails(addressBookToDisplay) {
 
 function showContact(contactId) {
   const contact = addressBook.findContact(contactId);
-  $("#show-contact").show();
+  $("#show-contact").show(1000);
   $(".first-name").html(contact.firstName);
   $(".last-name").html(contact.lastName);
   $(".phone-number").html(contact.phoneNumber);
